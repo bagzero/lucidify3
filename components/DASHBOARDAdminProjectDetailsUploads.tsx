@@ -38,8 +38,8 @@ const DASHBOARDAdminProjectDetailsUploads = ({ userId, projectId }: DASHBOARDAdm
     useEffect(() => {
         async function fetchData() {
             const basePath = `users/${userId}/projects/${projectId}`;
-            let sectionDocs = [];
-            let fullPageDocs = [];
+            let sectionDocs: any[] = [];
+            let fullPageDocs: any[] = [];
 
             try {
                 // Fetch Section Web Designs
@@ -329,5 +329,6 @@ const DASHBOARDAdminProjectDetailsUploads = ({ userId, projectId }: DASHBOARDAdm
         </div>
     );
 };
+
 
 export default DASHBOARDAdminProjectDetailsUploads;
