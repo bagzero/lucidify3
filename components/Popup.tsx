@@ -67,7 +67,7 @@ const Popup: React.FC<PopupProps> = ({ closePopup, isVisible }) => {
             />
           </div>
           <h1 className="HeadingFont">Start a <span className="TextGradient">project</span>.</h1>
-          <h3 className="text-[15px] opacity-90 font-light text-center max-w-[550px]">Got a vision? Let&apos;s make it real. We'll contact you in less than a day.</h3>
+          <h3 className="text-[15px] opacity-90 font-light text-center max-w-[550px]">Got a vision? Let&apos;s make it real. We&apos;ll contact you in less than a day.</h3>
           <div className="w-[600px] h-[1px] bg-gradient-to-b from-[rgba(255,255,255,0.25)] to-[rgba(255,255,255,0.20)] mt-[20px] mb-[10px]" />
 
           {isSubmitted ? (
@@ -195,3 +195,4 @@ const Popup: React.FC<PopupProps> = ({ closePopup, isVisible }) => {
 };
 
 export default Popup;
+
