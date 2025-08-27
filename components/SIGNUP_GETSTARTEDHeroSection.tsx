@@ -648,13 +648,13 @@ const SIGNUP_GETTINGSTARTEDHeroSection = () => {
 
 
             {/* Email Input and Continue Button */}
-            <h3 className="text-start text-black text-[18px] font-medium mb-[10px]">Let's start with the basics</h3>
+            <h3 className="text-start text-black text-[18px] font-medium mb-[10px]">Let&apos;s start with the basics</h3>
 
             <div className="flex flex-col gap-[10px]">
               <div className="flex justify-between relative">
 
                 <div className="w-[47%] flex flex-col items-start gap-[3px]">
-                  <h3 className="text-black text-[14px]">What's your first name?<span className="text-[#7160DE] font-bold text-[16px]">*</span></h3>
+                  <h3 className="text-black text-[14px]">What&apos;s your first name?<span className="text-[#7160DE] font-bold text-[16px]">*</span></h3>
                   <input
                     type="text"
                     placeholder="John"
@@ -666,7 +666,7 @@ const SIGNUP_GETTINGSTARTEDHeroSection = () => {
                 </div>
 
                 <div className="w-[47%] flex flex-col items-start gap-[3px]">
-                  <h3 className="text-black text-[14px]">What's your last name?<span className="text-[#7160DE] font-bold text-[16px]">*</span></h3>
+                  <h3 className="text-black text-[14px]">What&apos;s your last name?<span className="text-[#7160DE] font-bold text-[16px]">*</span></h3>
                   <input
                     type="text"
                     placeholder="Doe"
@@ -819,7 +819,7 @@ const SIGNUP_GETTINGSTARTEDHeroSection = () => {
           {/* Step 1: Google Signup or Email Input */}
           <div className="flex flex-col items-center mb-[40px]">
             <h1 className="text-[26px] font-semibold text-black mb-[6px]">Company Information</h1>
-            <h3 className="text-black text-[15px] text-center opacity-65">If you aren't associated with a company, you may skip this step!</h3>
+            <h3 className="text-black text-[15px] text-center opacity-65">If you aren&apos;t associated with a company, you may skip this step!</h3>
           </div>
 
 
@@ -832,7 +832,7 @@ const SIGNUP_GETTINGSTARTEDHeroSection = () => {
 
               {/* Company Name */}
               <div className="w-[48%] flex flex-col items-start gap-[3px]">
-                <h3 className="text-black text-[14px]">What is your company's name?<span className="text-[#7160DE] font-bold text-[16px]">*</span></h3>
+                <h3 className="text-black text-[14px]">What is your company&apos;s name?<span className="text-[#7160DE] font-bold text-[16px]">*</span></h3>
                 <input
                   type="text"
                   placeholder="Your Company Name"
@@ -1260,3 +1260,4 @@ const SIGNUP_GETTINGSTARTEDHeroSection = () => {
 };
 
 export default SIGNUP_GETTINGSTARTEDHeroSection;
+
