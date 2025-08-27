@@ -269,7 +269,7 @@ const CreateWebDesignPopup: React.FC<CreateWebDesignPopupProps> = ({ closeCreatP
                                         Design Page<span className="text-[#998af8] text-[16px] font-bold">*</span>
                                     </p>
                                     <div className="flex flex-wrap gap-[15px_20px] w-full justify-start">
-                                        {['Sections', 'Full-Page'].map((designPage) => (
+                                        {['Sections', 'Full-Page'].map((page) => (
                                             <button
                                                 type="button"
                                                 key={page}
@@ -325,4 +325,5 @@ const CreateWebDesignPopup: React.FC<CreateWebDesignPopupProps> = ({ closeCreatP
 
 
 export default CreateWebDesignPopup;
+
 
