@@ -272,14 +272,13 @@ const CreateWebDesignPopup: React.FC<CreateWebDesignPopupProps> = ({ closeCreatP
                                         {['Sections', 'Full-Page'].map((designPage) => (
                                             <button
                                                 type="button"
-                                                key={designPage}
-                                                onClick={() => handleDesignPageToggle(designPage)}
-                                                className={`px-4 py-2 rounded-[10px] text-white text-[12px] ${formData.designPage.includes(designPage)
-                                                    ? 'bg-[#725CF7] PopupAttentionShadow'
-                                                    : 'bg-[#2A2A2D] ContentCardShadow'
-                                                    }`}
+                                                key={page}
+                                                onClick={() => handleDesignPageToggle(page as "Sections" | "Full-Page")}
+                                                className={`px-4 py-2 rounded-[10px] text-white text-[12px] ${
+                                                    formData.designPage === page ? 'bg-[#725CF7] PopupAttentionShadow' : 'bg-[#2A2A2D] ContentCardShadow'
+                                                }`}
                                             >
-                                                {designPage}
+                                                {page}
                                             </button>
                                         ))}
                                     </div>
@@ -326,3 +325,4 @@ const CreateWebDesignPopup: React.FC<CreateWebDesignPopupProps> = ({ closeCreatP
 
 
 export default CreateWebDesignPopup;
+
